@@ -22,4 +22,4 @@ Edit `src/data/recipes.json`. Each recipe has `id`, `title`, `description`, `img
 
 ## Deploy
 
-Push to `main`; GitHub Actions builds and publishes to GitHub Pages at `/egm-ingredientX/`.
+Push to `main`; GitHub Actions builds and publishes to GitHub Pages on the custom domain ingredient-x.egmzone.com (CNAME to egomezm.github.io).

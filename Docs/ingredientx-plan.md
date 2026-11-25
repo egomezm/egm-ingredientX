@@ -6,7 +6,7 @@ seasoning, lemon pepper, onion and garlic.
 ## Stack
 
 - Vite + React + TypeScript, built to a static bundle (`dist/`)
-- Hosted on GitHub Pages at `/egm-ingredientX/`; HashRouter avoids 404 fallbacks
+- Hosted on GitHub Pages on the custom domain ingredient-x.egmzone.com (CNAME to egomezm.github.io); HashRouter avoids 404 fallbacks
 - No backend: recipes come from `src/data/recipes.json`
 - React state only; CSS modules; ESLint + Prettier; Vitest + Testing Library
 - GitHub Actions: lint, test, build, deploy to Pages

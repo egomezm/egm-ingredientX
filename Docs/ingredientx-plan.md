@@ -13,7 +13,7 @@ seasoning, lemon pepper, onion and garlic.
 
 ## Versioning
 
-Major.Minor.Patch from `package.json`, shown in a small footer. Current: 0.5.1.
+Major.Minor.Patch from `package.json`, shown in a small footer. Current: 0.5.2.
 
 ## Site
 
@@ -37,7 +37,7 @@ cauliflower, shrimp skewers, fries/wedges, sausage & veggies, garlic bread, past
 ## Assets
 
 `public/images/ingredient-x-label.png` (transparent outside the black border, white inner label),
-`public/logo.png`, `favicon.png` and `favicon-32.png` (the "Ingredient X" lettering and red X on a transparent square with a soft gray glow, readable on light and dark), and `public/images/spices.png` (spices from the label, background removed) shown at the bottom of the landing page.
+`public/logo.png`, `favicon.png` and `favicon-32.png` (the "Ingredient X" lettering and red X on a transparent square with a soft gray glow, readable on light and dark), and `public/images/spices.png` (spices from the label, background removed) shown at the bottom of every page.
 
 ## Structure
 
@@ -47,3 +47,5 @@ cauliflower, shrimp skewers, fries/wedges, sausage & veggies, garlic bread, past
 ## About page
 
 `/about` (HashRouter route) tells the playful origin story of Ingredient X, explains the name (a family recipe that cannot be shared), and shows a transparent portrait of Lalo (`public/images/lalo.png`) with a contact message. The landing page links to it and the main menu has an About item.
+
+The spices banner (`SpicesBanner`) is rendered by `App` above the footer, so it appears on every page, including future ones.

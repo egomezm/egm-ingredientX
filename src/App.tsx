@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { useLocation, useSearchParams } from 'react-router-dom';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
+import { SpicesBanner } from './components/SpicesBanner';
 import { RecipeCarousel } from './components/RecipeCarousel';
 import { getRecipe } from './data/recipes';
 import { About } from './pages/About';
@@ -34,6 +35,7 @@ export function App() {
           <p role="alert">Recipe not found. Pick one from the menu above.</p>
         )}
       </main>
+      <SpicesBanner />
       <Footer />
     </div>
   );

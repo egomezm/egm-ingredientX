@@ -31,11 +31,6 @@ export function Landing() {
           Want to know what Ingredient X is made of, and how? <Link to="/about">Click here.</Link>
         </p>
       </div>
-      <div className={styles.spices} aria-hidden="true">
-        <span className={styles.rule} />
-        <img src={assetUrl('images/spices.png')} alt="" />
-        <span className={styles.rule} />
-      </div>
     </section>
   );
 }

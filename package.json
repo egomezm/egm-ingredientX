@@ -1,6 +1,6 @@
 {
   "name": "egm-ingredientx",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Recipes using Ingredient X by Lalo",
   "scripts": {
     "dev": "vite",

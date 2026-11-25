@@ -17,14 +17,14 @@ export function About() {
           The potatoes never saw it coming.
         </p>
         <p>
-          The first batch was far too strong. The neighbors came knocking, the dog stood guard by
-          the oven, and a cousin asked for the "secret" before dessert. Lalo kept tweaking: a little
+          The first batch was far too strong. The neighbors came knocking, the cat stood guard by
+          the oven, and my son asked for the "secret" before dessert. Lalo kept tweaking: a little
           more of this, a little less of that, until the kitchen smelled like a celebration and
           nobody could stop reaching for seconds.
         </p>
         <p className={styles.verdict}>
-          So why is it called <strong>Ingredient X</strong>? Because it is my family recipe, and it
-          cannot be shared.
+          So why is it called <strong>Ingredient X</strong>? Because it is my own recipe, and it has
+          been in my family for years, and it cannot be shared.
         </p>
       </div>
 

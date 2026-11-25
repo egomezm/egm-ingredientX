@@ -1,14 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:ital,wght@0,500;0,700;1,400&display=swap');
 
 :root {
+  --bg: #fbf6ee;
+  --bg-glow: #fff1da;
+  --surface: #ffffff;
+  --line: #e6d9c6;
+  --cream: #2b211b;
+  --muted: #6f6254;
+  --gold: #a8741a;
+  --red: #d4231c;
+  --serif: 'Playfair Display', Georgia, serif;
+}
+
+:root[data-theme='dark'] {
   --bg: #14100e;
+  --bg-glow: #2b1a14;
   --surface: #1f1815;
   --line: #3a2e28;
   --cream: #f6ecdc;
   --muted: #b8a995;
   --gold: #d9a441;
-  --red: #e0261f;
-  --serif: 'Playfair Display', Georgia, serif;
 }
 
 * {
@@ -20,7 +31,7 @@ body {
   font-family: 'Inter', system-ui, sans-serif;
   line-height: 1.65;
   color: var(--cream);
-  background: radial-gradient(ellipse at top, #2b1a14 0%, transparent 60%), var(--bg);
+  background: radial-gradient(ellipse at top, var(--bg-glow) 0%, transparent 60%), var(--bg);
   min-height: 100vh;
 }
 

@@ -21,6 +21,10 @@ export function getRecipe(id: string | null): Recipe | undefined {
   return recipes.find((r) => String(r.id) === id);
 }
 
+export function thumbPath(path: string): string {
+  return path.replace('/recipes/', '/recipes/thumbs/');
+}
+
 export function assetUrl(path: string): string {
   return `${import.meta.env.BASE_URL}${path}`;
 }

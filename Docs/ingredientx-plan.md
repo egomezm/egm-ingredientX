@@ -13,7 +13,7 @@ seasoning, lemon pepper, onion and garlic.
 
 ## Versioning
 
-Major.Minor.Patch from `package.json`, shown in a small footer. Current: 0.2.0.
+Major.Minor.Patch from `package.json`, shown in a small footer. Current: 0.3.0.
 
 ## Site
 
@@ -23,12 +23,14 @@ Major.Minor.Patch from `package.json`, shown in a small footer. Current: 0.2.0.
   top). The URL is bookmarkable; unknown ids show a not-found message.
 - Landing page (no `recipe` param): the Ingredient X label (transparent PNG with the label's
   shape) and the blend description.
-- Theme: dark charcoal, warm gold accents, Ingredient X red; Playfair Display + Inter.
+- Theme: light by default (warm cream, gold accents, Ingredient X red), with a header toggle to a
+  dark theme saved in localStorage; Playfair Display + Inter.
+- The carousel is compact (max 520px wide, centered, phone friendly) and uses small thumbnails.
 
 ## Recipe data
 
 `id`, `title`, `description`, `img_src_path`, `ingredients[{item, measure}]`, `instructions[]`.
-Images live in `public/images/recipes/`; a branded placeholder shows if one is missing.
+Images (generated) live in `public/images/recipes/` with 360px thumbnails in `thumbs/` for the menu; a branded placeholder shows if one is missing.
 Ten starter recipes: foil-packet potatoes and onions, grilled zucchini, sheet-pan chicken, roasted
 cauliflower, shrimp skewers, fries/wedges, sausage & veggies, garlic bread, pasta toss.
 

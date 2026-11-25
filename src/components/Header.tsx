@@ -1,5 +1,6 @@
 import { Link, NavLink } from 'react-router-dom';
 import { assetUrl, recipes } from '../data/recipes';
+import { ThemeToggle } from './ThemeToggle';
 import styles from './Header.module.css';
 
 export function Header({ hasRecipe }: { hasRecipe: boolean }) {
@@ -21,6 +22,7 @@ export function Header({ hasRecipe }: { hasRecipe: boolean }) {
         >
           Recipes
         </NavLink>
+        <ThemeToggle />
       </nav>
     </header>
   );

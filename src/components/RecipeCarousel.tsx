@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { recipes } from '../data/recipes';
+import { recipes, thumbPath } from '../data/recipes';
 import { RecipeImage } from './RecipeImage';
 import styles from './RecipeCarousel.module.css';
 
@@ -53,7 +53,7 @@ export function RecipeCarousel({ activeId }: { activeId: string | null }) {
                   aria-current={String(r.id) === activeId ? 'page' : undefined}
                 >
                   <span className={styles.thumb}>
-                    <RecipeImage src={r.img_src_path} alt="" />
+                    <RecipeImage src={thumbPath(r.img_src_path)} alt="" />
                   </span>
                   <span className={styles.title}>{r.title}</span>
                 </Link>

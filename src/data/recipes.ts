@@ -1,0 +1,26 @@
+import data from './recipes.json';
+
+export interface RecipeIngredient {
+  item: string;
+  measure: string;
+}
+
+export interface Recipe {
+  id: number;
+  title: string;
+  description: string;
+  img_src_path: string;
+  ingredients: RecipeIngredient[];
+  instructions: string[];
+}
+
+export const recipes: Recipe[] = data;
+
+export function getRecipe(id: string | null): Recipe | undefined {
+  if (id === null) return undefined;
+  return recipes.find((r) => String(r.id) === id);
+}
+
+export function assetUrl(path: string): string {
+  return `${import.meta.env.BASE_URL}${path}`;
+}

@@ -1,0 +1,198 @@
+[
+  {
+    "id": 1,
+    "title": "Foil-Packet Spicy Potatoes X",
+    "description": "Crispy-edged, soft-centered potatoes sealed in foil with a generous coating of Ingredient X and a kick of crushed pepper.",
+    "img_src_path": "images/recipes/01-foil-packet-spicy-potatoes.jpg",
+    "ingredients": [
+      { "item": "Baby or Yukon Gold potatoes, chopped", "measure": "1.5 lb (700 g)" },
+      { "item": "Olive oil", "measure": "2 tbsp" },
+      { "item": "Ingredient X", "measure": "1 tbsp" },
+      { "item": "Salt", "measure": "1 pinch" },
+      { "item": "Crushed red pepper", "measure": "1/2 tsp" },
+      { "item": "Balsamic glaze", "measure": "1 tbsp, to finish" }
+    ],
+    "instructions": [
+      "Preheat the oven to 425°F (220°C) or heat the grill to medium-high.",
+      "Chop the potatoes into bite-size pieces and toss with olive oil, Ingredient X, salt and crushed red pepper.",
+      "Pile onto a large sheet of aluminum foil, fold and seal the packet tightly.",
+      "Bake or grill for 35–40 minutes, opening the packet for the last 10 minutes to crisp the edges.",
+      "Finish with a light drizzle of balsamic glaze and serve hot."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Foil-Packet Spicy Onions X",
+    "description": "Deeply golden, sweet and savory onions that make the perfect topping or side.",
+    "img_src_path": "images/recipes/02-foil-packet-spicy-onions.jpg",
+    "ingredients": [
+      { "item": "Large onions, sliced", "measure": "3" },
+      { "item": "Olive oil", "measure": "2 tbsp" },
+      { "item": "Ingredient X", "measure": "1 tbsp" },
+      { "item": "Crushed red pepper (optional)", "measure": "1/4 tsp" }
+    ],
+    "instructions": [
+      "Preheat the oven to 400°F (200°C) or heat the grill to medium.",
+      "Slice the onions and coat them with olive oil and Ingredient X.",
+      "Wrap tightly in foil, leaving a little room for steam.",
+      "Cook for 30–40 minutes until deeply golden and sweet.",
+      "Use as a topping for burgers, steaks and sandwiches, or enjoy as a side."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Grilled Zucchini X",
+    "description": "Thick planks of zucchini, charred and tender, dusted heavily with Ingredient X.",
+    "img_src_path": "images/recipes/03-grilled-zucchini.jpg",
+    "ingredients": [
+      { "item": "Zucchini", "measure": "3 medium" },
+      { "item": "Olive oil", "measure": "2 tbsp" },
+      { "item": "Ingredient X", "measure": "2 tsp" },
+      { "item": "Balsamic glaze (optional)", "measure": "1 tbsp" }
+    ],
+    "instructions": [
+      "Heat the grill to medium-high.",
+      "Slice the zucchini into thick rounds or long planks.",
+      "Brush both sides with olive oil and dust heavily with Ingredient X.",
+      "Grill 3–4 minutes per side until charred and tender.",
+      "Finish with a drizzle of balsamic glaze if desired."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Sheet-Pan Chicken X",
+    "description": "Crispy-skinned chicken thighs rubbed with Ingredient X and finished with a quick balsamic reduction.",
+    "img_src_path": "images/recipes/04-sheet-pan-chicken.jpg",
+    "ingredients": [
+      { "item": "Bone-in, skin-on chicken thighs", "measure": "6" },
+      { "item": "Olive oil", "measure": "2 tbsp" },
+      { "item": "Ingredient X", "measure": "2 tbsp" },
+      { "item": "Balsamic vinegar", "measure": "1/3 cup" }
+    ],
+    "instructions": [
+      "Preheat the oven to 425°F (220°C).",
+      "Pat the chicken dry and rub all over with olive oil and Ingredient X.",
+      "Arrange skin-side up on a sheet pan and roast 35–45 minutes until crispy and 175°F (80°C) inside.",
+      "Meanwhile, simmer the balsamic vinegar for 6–8 minutes until syrupy.",
+      "Rest the chicken for 5 minutes, then drizzle with the reduction."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Roasted Cauliflower X",
+    "description": "Thick cauliflower steaks, golden and caramelized, with a balsamic finish.",
+    "img_src_path": "images/recipes/05-roasted-cauliflower.jpg",
+    "ingredients": [
+      { "item": "Large head of cauliflower", "measure": "1" },
+      { "item": "Olive oil", "measure": "3 tbsp" },
+      { "item": "Ingredient X", "measure": "2 tbsp" },
+      { "item": "Balsamic glaze", "measure": "1 tbsp" }
+    ],
+    "instructions": [
+      "Preheat the oven to 450°F (230°C).",
+      "Cut the cauliflower into thick steaks, about 1 inch (2.5 cm).",
+      "Brush with olive oil and coat both sides with Ingredient X.",
+      "Roast 20–25 minutes, flipping once, until golden and caramelized.",
+      "Drizzle with balsamic glaze at the end."
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Shrimp Skewers X",
+    "description": "Fast, juicy shrimp seasoned with Ingredient X, grilled in minutes with a squeeze of lemon.",
+    "img_src_path": "images/recipes/06-shrimp-skewers.jpg",
+    "ingredients": [
+      { "item": "Large shrimp, peeled", "measure": "1 lb (450 g)" },
+      { "item": "Olive oil", "measure": "2 tbsp" },
+      { "item": "Ingredient X", "measure": "1 tbsp" },
+      { "item": "Lemon", "measure": "1, cut into wedges" },
+      { "item": "Balsamic glaze (optional)", "measure": "1 tsp" }
+    ],
+    "instructions": [
+      "Heat the grill or broiler to high.",
+      "Toss the shrimp with olive oil and Ingredient X.",
+      "Thread onto skewers.",
+      "Grill or broil 2–3 minutes per side until pink and lightly charred.",
+      "Squeeze lemon over the top and add a touch of balsamic if desired."
+    ]
+  },
+  {
+    "id": 7,
+    "title": "French Fries / Wedges X",
+    "description": "Ultra-crispy potato wedges or fries seasoned with Ingredient X, served with a balsamic-mayo dip.",
+    "img_src_path": "images/recipes/07-fries-wedges.jpg",
+    "ingredients": [
+      { "item": "Russet potatoes", "measure": "3 large" },
+      { "item": "Oil", "measure": "3 tbsp" },
+      { "item": "Ingredient X", "measure": "1 tbsp" },
+      { "item": "Mayonnaise (dip)", "measure": "1/3 cup" },
+      { "item": "Balsamic glaze (dip)", "measure": "1 tbsp" }
+    ],
+    "instructions": [
+      "Cut the potatoes into wedges or fries and soak in cold water for 20 minutes; dry thoroughly.",
+      "Toss with oil and Ingredient X.",
+      "Roast at 425°F (220°C) for 30–35 minutes, or air-fry at 400°F (200°C) for 18–22 minutes, shaking halfway, until ultra-crispy.",
+      "Stir the mayonnaise and balsamic glaze together for the dip.",
+      "Serve the fries hot with the dip."
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Sausage & Veggie X",
+    "description": "A one-pan roast of Italian sausage, zucchini, onion and bell pepper, tossed in Ingredient X.",
+    "img_src_path": "images/recipes/08-sausage-and-veggies.jpg",
+    "ingredients": [
+      { "item": "Italian sausage, sliced", "measure": "1 lb (450 g)" },
+      { "item": "Zucchini, sliced", "measure": "2 medium" },
+      { "item": "Onion, sliced", "measure": "1 large" },
+      { "item": "Bell pepper, sliced", "measure": "2" },
+      { "item": "Olive oil", "measure": "2 tbsp" },
+      { "item": "Ingredient X", "measure": "1 1/2 tbsp" }
+    ],
+    "instructions": [
+      "Preheat the oven to 425°F (220°C).",
+      "Slice the sausage, zucchini, onion and bell peppers.",
+      "Toss everything with olive oil and Ingredient X on a large sheet pan.",
+      "Roast 25–30 minutes, stirring once, until the sausage is browned and the vegetables are soft."
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Garlic Bread X",
+    "description": "Thick, buttery slices toasted until golden and fragrant, with an optional balsamic brush.",
+    "img_src_path": "images/recipes/09-garlic-bread.jpg",
+    "ingredients": [
+      { "item": "Butter, softened", "measure": "1/2 cup (115 g)" },
+      { "item": "Ingredient X", "measure": "1 1/2 tbsp" },
+      { "item": "Baguette or ciabatta, sliced", "measure": "1 loaf" },
+      { "item": "Balsamic glaze (optional)", "measure": "1 tsp" }
+    ],
+    "instructions": [
+      "Mix the softened butter with Ingredient X.",
+      "Spread thickly on the sliced bread.",
+      "Toast or broil 2–4 minutes until golden and fragrant.",
+      "Lightly brush with balsamic glaze if desired and serve warm."
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Pasta Toss X",
+    "description": "Hot pasta tossed with olive oil, Ingredient X and Parmesan, finished with a few drops of balsamic glaze.",
+    "img_src_path": "images/recipes/10-pasta-toss.jpg",
+    "ingredients": [
+      { "item": "Pasta", "measure": "12 oz (340 g)" },
+      { "item": "Olive oil", "measure": "3 tbsp" },
+      { "item": "Ingredient X", "measure": "1 tbsp" },
+      { "item": "Grated Parmesan", "measure": "1/2 cup" },
+      { "item": "Pasta water", "measure": "1/4 cup" },
+      { "item": "Balsamic glaze", "measure": "a few drops" },
+      { "item": "Fresh herbs (optional)", "measure": "to garnish" }
+    ],
+    "instructions": [
+      "Cook the pasta in well-salted water until al dente; reserve 1/4 cup of the pasta water.",
+      "Drain and toss the hot pasta with olive oil, Ingredient X and Parmesan.",
+      "Splash in pasta water to loosen into a glossy coating.",
+      "Finish with a few drops of balsamic glaze and fresh herbs if available."
+    ]
+  }
+]

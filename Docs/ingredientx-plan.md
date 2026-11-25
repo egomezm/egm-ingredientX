@@ -1,43 +1,43 @@
 # Ingredient-x plan
 
-A static site showcasing recipes that use "Ingredient X" by Lalo.
+A static site showcasing recipes that use "Ingredient X" by Lalo: a seasoning blend of Italian
+seasoning, lemon pepper, onion and garlic.
 
 ## Stack
 
 - Vite + React + TypeScript, built to a static bundle (`dist/`)
 - Hosted on GitHub Pages at `/egm-ingredientX/`; HashRouter avoids 404 fallbacks
-- Supabase (`@supabase/supabase-js`, anon key + RLS) accessed client-side
-- TanStack Query for data fetching; React state/context only
-- CSS modules; ESLint + Prettier; Vitest + Testing Library
+- No backend: recipes come from `src/data/recipes.json`
+- React state only; CSS modules; ESLint + Prettier; Vitest + Testing Library
 - GitHub Actions: lint, test, build, deploy to Pages
 
 ## Versioning
 
-Major.Minor.Patch from `package.json`, shown in a small footer. Current: 0.1.0.
+Major.Minor.Patch from `package.json`, shown in a small footer. Current: 0.2.0.
 
-## Data
+## Site
 
-Table `ingredientx_recipe` (public read via RLS):
+- Main navigation (Home, Recipes) plus a recipe carousel under it: 3 cards visible, arrow handles
+  slide the list left/right with animation.
+- Selecting a card navigates to `#/?recipe=<id>`, re-rendering the page as new (fade-in, scroll to
+  top). The URL is bookmarkable; unknown ids show a not-found message.
+- Landing page (no `recipe` param): the Ingredient X label (transparent PNG with the label's
+  shape) and the blend description.
+- Theme: dark charcoal, warm gold accents, Ingredient X red; Playfair Display + Inter.
 
-```sql
-create table ingredientx_recipe (
-  id uuid primary key default gen_random_uuid(),
-  title text not null,
-  description text,
-  instructions text,
-  ingredients text[] not null default '{}',
-  created_at timestamptz not null default now()
-);
-alter table ingredientx_recipe enable row level security;
-create policy "public read" on ingredientx_recipe for select using (true);
-```
+## Recipe data
+
+`id`, `title`, `description`, `img_src_path`, `ingredients[{item, measure}]`, `instructions[]`.
+Images live in `public/images/recipes/`; a branded placeholder shows if one is missing.
+Ten starter recipes: foil-packet potatoes and onions, grilled zucchini, sheet-pan chicken, roasted
+cauliflower, shrimp skewers, fries/wedges, sausage & veggies, garlic bread, pasta toss.
+
+## Assets
+
+`public/images/ingredient-x-label.png` (transparent outside the black border, white inner label),
+`public/favicon.png` and `favicon-32.png` (the red X on transparent).
 
 ## Structure
 
-`src/api` (Supabase client, recipe queries), `src/features/recipes` (list, detail),
-`src/components` (footer), `src/styles`.
-
-## Configuration
-
-`VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY` (see `.env.example`; set as Actions
-variable/secret for deploys).
+`src/data`, `src/components` (header, carousel, footer, image), `src/pages` (landing, recipe),
+`src/styles`.

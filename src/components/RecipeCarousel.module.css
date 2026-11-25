@@ -1,0 +1,103 @@
+.carousel {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.viewport {
+  flex: 1;
+  overflow: hidden;
+  padding: 0.5rem 0;
+}
+
+.track {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transition: transform 0.55s cubic-bezier(0.22, 0.8, 0.3, 1);
+}
+
+.slide {
+  flex: 0 0 calc(100% / 3);
+  padding: 0 0.4rem;
+  box-sizing: border-box;
+}
+
+.card {
+  display: block;
+  text-decoration: none;
+  color: var(--cream);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  overflow: hidden;
+  transition:
+    transform 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.card:hover,
+.card:focus-visible {
+  transform: translateY(-4px);
+  border-color: var(--gold);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.5);
+}
+
+.active {
+  border-color: var(--red);
+  box-shadow: 0 0 0 1px var(--red);
+}
+
+.thumb {
+  display: block;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+}
+
+.title {
+  display: block;
+  padding: 0.6rem 0.8rem;
+  font-family: var(--serif);
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.arrow {
+  flex: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid var(--gold);
+  background: transparent;
+  color: var(--gold);
+  font-size: 1.6rem;
+  line-height: 1;
+  cursor: pointer;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.arrow:hover:not(:disabled) {
+  background: var(--gold);
+  color: var(--bg);
+}
+
+.arrow:disabled {
+  opacity: 0.25;
+  cursor: default;
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 0.75rem;
+    padding: 0.4rem;
+  }
+  .arrow {
+    width: 34px;
+    height: 34px;
+  }
+}

@@ -13,7 +13,7 @@ const renderAt = (url: string) =>
 
 test('landing page shows the blend description', () => {
   renderAt('/');
-  expect(screen.getByText(/Italian seasoning/)).toBeInTheDocument();
+  expect(screen.getByText(/Ingredient X1/)).toBeInTheDocument();
 });
 
 test('recipe URL parameter renders that recipe', () => {
@@ -37,4 +37,9 @@ test('clicking a menu card switches recipe and arrows scroll the carousel', asyn
   expect(prev).toBeDisabled();
   await user.click(next);
   expect(prev).toBeEnabled();
+});
+
+test('about page tells the story', () => {
+  renderAt('/about');
+  expect(screen.getByRole('heading', { level: 1, name: /About Ingredient X/ })).toBeInTheDocument();
 });

@@ -1,0 +1,73 @@
+.about {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1.5rem 0 2rem;
+}
+
+.kicker {
+  font-size: 0.8rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.about h1 {
+  font-family: var(--serif);
+  font-size: clamp(2rem, 6vw, 3rem);
+  margin: 0.25rem 0 1rem;
+}
+
+.about h1 em {
+  color: var(--red);
+  font-style: normal;
+}
+
+.story p {
+  line-height: 1.75;
+  margin: 0 0 1rem;
+}
+
+.verdict {
+  font-family: var(--serif);
+  font-size: 1.25rem;
+  border-left: 3px solid var(--red);
+  padding-left: 1rem;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid var(--gold);
+  border-radius: 14px;
+}
+
+.card img {
+  flex: none;
+  width: min(45%, 260px);
+  filter: drop-shadow(0 6px 10px rgba(80, 50, 20, 0.25));
+}
+
+.card p {
+  font-family: var(--serif);
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin: 0 0 0.5rem;
+}
+
+.sign {
+  color: var(--gold);
+  font-weight: 700;
+}
+
+@media (max-width: 560px) {
+  .card {
+    flex-direction: column;
+    text-align: center;
+  }
+  .card img {
+    width: 75%;
+  }
+}

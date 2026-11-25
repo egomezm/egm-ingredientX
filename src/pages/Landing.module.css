@@ -35,6 +35,16 @@
   background: linear-gradient(to left, transparent, var(--gold));
 }
 
+.lalo {
+  font-weight: 800;
+  color: var(--gold);
+}
+
+.copy a {
+  color: var(--red);
+  font-weight: 600;
+}
+
 .label {
   width: 100%;
   filter: drop-shadow(0 18px 30px rgba(0, 0, 0, 0.65));

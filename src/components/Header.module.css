@@ -19,8 +19,9 @@
 }
 
 .brand img {
-  width: 30px;
-  height: 30px;
+  width: 56px;
+  height: 56px;
+  margin: -10px 0;
 }
 
 .brand em {

@@ -7,7 +7,7 @@ export function Header({ hasRecipe }: { hasRecipe: boolean }) {
   return (
     <header className={styles.header}>
       <Link to="/" className={styles.brand}>
-        <img src={assetUrl('favicon.png')} alt="" />
+        <img src={assetUrl('logo.png')} alt="" />
         <span>
           Ingredient <em>X</em>
         </span>

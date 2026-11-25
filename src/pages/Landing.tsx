@@ -24,6 +24,11 @@ export function Landing() {
         </p>
         <p>Pick a recipe from the menu above to see how Lalo puts Ingredient X to work.</p>
       </div>
+      <div className={styles.spices} aria-hidden="true">
+        <span className={styles.rule} />
+        <img src={assetUrl('images/spices.png')} alt="" />
+        <span className={styles.rule} />
+      </div>
     </section>
   );
 }

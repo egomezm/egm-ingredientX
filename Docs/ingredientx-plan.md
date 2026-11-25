@@ -13,7 +13,7 @@ seasoning, lemon pepper, onion and garlic.
 
 ## Versioning
 
-Major.Minor.Patch from `package.json`, shown in a small footer. Current: 0.3.0.
+Major.Minor.Patch from `package.json`, shown in a small footer. Current: 0.4.0.
 
 ## Site
 
@@ -37,7 +37,7 @@ cauliflower, shrimp skewers, fries/wedges, sausage & veggies, garlic bread, past
 ## Assets
 
 `public/images/ingredient-x-label.png` (transparent outside the black border, white inner label),
-`public/favicon.png` and `favicon-32.png` (the red X on transparent).
+`public/logo.png`, `favicon.png` and `favicon-32.png` (the "Ingredient X" lettering and red X on a transparent square with a soft gray glow, readable on light and dark), and `public/images/spices.png` (spices from the label, background removed) shown at the bottom of the landing page.
 
 ## Structure
 

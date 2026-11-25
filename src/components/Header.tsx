@@ -7,11 +7,8 @@ export function Header({ hasRecipe }: { hasRecipe: boolean }) {
   const about = useLocation().pathname === '/about';
   return (
     <header className={styles.header}>
-      <Link to="/" className={styles.brand}>
-        <img src={assetUrl('logo.png')} alt="" />
-        <span>
-          Ingredient <em>X</em>
-        </span>
+      <Link to="/" className={styles.brand} aria-label="Ingredient X home">
+        <img src={assetUrl('logo.png')} alt="Ingredient X" />
       </Link>
       <nav aria-label="Main navigation" className={styles.nav}>
         <NavLink to="/" end className={() => (hasRecipe || about ? '' : styles.current)}>

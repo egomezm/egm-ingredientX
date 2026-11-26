@@ -39,7 +39,7 @@
       "Slice the tomatoes into wedges or thick rounds and the onion into thin half-moons.",
       "Add the tomatoes and onion to the lettuce.",
       "Drizzle with olive oil, sprinkle with Ingredient X and a pinch of salt, and toss gently.",
-      "Finish with a light drizzle of balsamic glaze if you like, and serve right away."
+      "Finish with a light drizzle of vinegar if you like, and serve right away."
     ]
   },
   {
@@ -78,7 +78,7 @@
       "Chop the potatoes into bite-size pieces and toss with olive oil, Ingredient X, salt and crushed red pepper.",
       "Pile onto a large sheet of aluminum foil, fold and seal the packet tightly.",
       "Bake or grill for 35–40 minutes, opening the packet for the last 10 minutes to crisp the edges.",
-      "Finish with a light drizzle of balsamic glaze and serve hot."
+      "Finish with a light drizzle of vinegar and serve hot."
     ]
   },
   {
@@ -140,13 +140,13 @@
       "Slice the zucchini into thick rounds or long planks.",
       "Brush both sides with olive oil and dust heavily with Ingredient X.",
       "Grill 3–4 minutes per side until charred and tender.",
-      "Finish with a drizzle of balsamic glaze if desired."
+      "Finish with a drizzle of vinegar if desired."
     ]
   },
   {
     "id": 5,
     "title": "Sheet-Pan Chicken X",
-    "description": "Crispy-skinned chicken thighs rubbed with Ingredient X and finished with a quick balsamic reduction.",
+    "description": "Crispy-skinned chicken thighs rubbed with Ingredient X and finished with a quick vinegar reduction.",
     "img_src_path": "images/recipes/04-sheet-pan-chicken.jpg",
     "ingredients": [
       {
@@ -162,7 +162,7 @@
         "measure": "2 tbsp"
       },
       {
-        "item": "Balsamic vinegar",
+        "item": "Vinegar (Balsamic or Glazed)",
         "measure": "1/3 cup"
       }
     ],
@@ -170,14 +170,14 @@
       "Preheat the oven to 425°F (220°C).",
       "Pat the chicken dry and rub all over with olive oil and Ingredient X.",
       "Arrange skin-side up on a sheet pan and roast 35–45 minutes until crispy and 175°F (80°C) inside.",
-      "Meanwhile, simmer the balsamic vinegar for 6–8 minutes until syrupy.",
+      "Meanwhile, simmer the vinegar for 6–8 minutes until syrupy (skip this if using glaze).",
       "Rest the chicken for 5 minutes, then drizzle with the reduction."
     ]
   },
   {
     "id": 6,
     "title": "Roasted Cauliflower X",
-    "description": "Thick cauliflower steaks, golden and caramelized, with a balsamic finish.",
+    "description": "Thick cauliflower steaks, golden and caramelized, with a vinegar finish.",
     "img_src_path": "images/recipes/05-roasted-cauliflower.jpg",
     "ingredients": [
       {
@@ -202,7 +202,7 @@
       "Cut the cauliflower into thick steaks, about 1 inch (2.5 cm).",
       "Brush with olive oil and coat both sides with Ingredient X.",
       "Roast 20–25 minutes, flipping once, until golden and caramelized.",
-      "Drizzle with balsamic glaze at the end."
+      "Drizzle with vinegar at the end."
     ]
   },
   {
@@ -237,13 +237,13 @@
       "Toss the shrimp with olive oil and Ingredient X.",
       "Thread onto skewers.",
       "Grill or broil 2–3 minutes per side until pink and lightly charred.",
-      "Squeeze lemon over the top and add a touch of balsamic if desired."
+      "Squeeze lemon over the top and add a touch of vinegar if desired."
     ]
   },
   {
     "id": 8,
     "title": "French Fries / Wedges X",
-    "description": "Ultra-crispy potato wedges or fries seasoned with Ingredient X, served with a balsamic-mayo dip.",
+    "description": "Ultra-crispy potato wedges or fries seasoned with Ingredient X, served with a vinegar-mayo dip.",
     "img_src_path": "images/recipes/07-fries-wedges.jpg",
     "ingredients": [
       {
@@ -271,7 +271,7 @@
       "Cut the potatoes into wedges or fries and soak in cold water for 20 minutes; dry thoroughly.",
       "Toss with oil and Ingredient X.",
       "Roast at 425°F (220°C) for 30–35 minutes, or air-fry at 400°F (200°C) for 18–22 minutes, shaking halfway, until ultra-crispy.",
-      "Stir the mayonnaise and balsamic glaze together for the dip.",
+      "Stir the mayonnaise and vinegar together for the dip.",
       "Serve the fries hot with the dip."
     ]
   },
@@ -316,7 +316,7 @@
   {
     "id": 10,
     "title": "Garlic Bread X",
-    "description": "Thick, buttery slices toasted until golden and fragrant, with an optional balsamic brush.",
+    "description": "Thick, buttery slices toasted until golden and fragrant, with an optional vinegar brush.",
     "img_src_path": "images/recipes/09-garlic-bread.jpg",
     "ingredients": [
       {
@@ -340,13 +340,13 @@
       "Mix the softened butter with Ingredient X.",
       "Spread thickly on the sliced bread.",
       "Toast or broil 2–4 minutes until golden and fragrant.",
-      "Lightly brush with balsamic glaze if desired and serve warm."
+      "Lightly brush with vinegar if desired and serve warm."
     ]
   },
   {
     "id": 11,
     "title": "Pasta Toss X",
-    "description": "Hot pasta tossed with olive oil, Ingredient X and Parmesan, finished with a few drops of balsamic glaze.",
+    "description": "Hot pasta tossed with olive oil, Ingredient X and Parmesan, finished with a few drops of vinegar.",
     "img_src_path": "images/recipes/10-pasta-toss.jpg",
     "ingredients": [
       {
@@ -382,7 +382,7 @@
       "Cook the pasta in well-salted water until al dente; reserve 1/4 cup of the pasta water.",
       "Drain and toss the hot pasta with olive oil, Ingredient X and Parmesan.",
       "Splash in pasta water to loosen into a glossy coating.",
-      "Finish with a few drops of balsamic glaze and fresh herbs if available."
+      "Finish with a few drops of vinegar and fresh herbs if available."
     ]
   }
 ]

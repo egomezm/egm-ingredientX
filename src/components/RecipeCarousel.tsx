@@ -1,10 +1,11 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { recipes, thumbPath } from '../data/recipes';
 import { RecipeImage } from './RecipeImage';
 import styles from './RecipeCarousel.module.css';
 
 const VISIBLE = 3;
+const SWIPE_PX = 40;
 const MAX_START = Math.max(0, recipes.length - VISIBLE);
 
 function startFor(activeId: string | null): number {
@@ -26,6 +27,24 @@ export function RecipeCarousel({ activeId }: { activeId: string | null }) {
 
   const go = (delta: number) => setStart((s) => Math.min(Math.max(s + delta, 0), MAX_START));
 
+  const drag = useRef<{ x: number; y: number } | null>(null);
+  const swiped = useRef(false);
+
+  const onPointerDown = (e: React.PointerEvent) => {
+    drag.current = { x: e.clientX, y: e.clientY };
+    swiped.current = false;
+  };
+  const onPointerUp = (e: React.PointerEvent) => {
+    const from = drag.current;
+    drag.current = null;
+    if (!from) return;
+    const dx = e.clientX - from.x;
+    if (Math.abs(dx) >= SWIPE_PX && Math.abs(dx) > Math.abs(e.clientY - from.y)) {
+      swiped.current = true;
+      go(dx < 0 ? 1 : -1);
+    }
+  };
+
   return (
     <section className={styles.carousel} aria-label="Recipe menu">
       <button
@@ -37,7 +56,19 @@ export function RecipeCarousel({ activeId }: { activeId: string | null }) {
       >
         ‹
       </button>
-      <div className={styles.viewport}>
+      <div
+        className={styles.viewport}
+        onPointerDown={onPointerDown}
+        onPointerUp={onPointerUp}
+        onPointerCancel={() => (drag.current = null)}
+        onClickCapture={(e) => {
+          if (swiped.current) {
+            e.preventDefault();
+            e.stopPropagation();
+            swiped.current = false;
+          }
+        }}
+      >
         <ul
           className={styles.track}
           style={{ transform: `translateX(-${(start * 100) / VISIBLE}%)` }}
@@ -47,6 +78,7 @@ export function RecipeCarousel({ activeId }: { activeId: string | null }) {
             return (
               <li key={r.id} className={styles.slide}>
                 <Link
+                  draggable={false}
                   to={`/?recipe=${r.id}`}
                   className={`${styles.card} ${String(r.id) === activeId ? styles.active : ''}`}
                   tabIndex={visible ? 0 : -1}

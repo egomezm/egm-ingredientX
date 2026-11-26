@@ -10,6 +10,13 @@
   flex: 1;
   overflow: hidden;
   padding: 0.5rem 0;
+  touch-action: pan-y;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.viewport img {
+  -webkit-user-drag: none;
 }
 
 .track {

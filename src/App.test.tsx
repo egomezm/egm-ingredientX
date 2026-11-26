@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react';
+import { fireEvent, render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { MemoryRouter } from 'react-router-dom';
 import { App } from './App';
@@ -42,4 +42,19 @@ test('clicking a menu card switches recipe and arrows scroll the carousel', asyn
 test('about page tells the story', () => {
   renderAt('/about');
   expect(screen.getByRole('heading', { level: 1, name: /About Ingredient X/ })).toBeInTheDocument();
+});
+
+test('swiping the carousel left scrolls to the next recipes', () => {
+  renderAt('/');
+  const next = screen.getByRole('button', { name: 'Next recipes' });
+  const prev = screen.getByRole('button', { name: 'Previous recipes' });
+  expect(prev).toBeDisabled();
+  const viewport = screen.getByRole('region', { name: 'Recipe menu' }).querySelector('div')!;
+  // jsdom has no PointerEvent, so dispatch mouse events typed as pointer events.
+  const ptr = (type: string, clientX: number, clientY: number) =>
+    fireEvent(viewport, new MouseEvent(type, { bubbles: true, clientX, clientY }));
+  ptr('pointerdown', 300, 100);
+  ptr('pointerup', 100, 105);
+  expect(prev).toBeEnabled();
+  expect(next).toBeEnabled();
 });

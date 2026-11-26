@@ -13,7 +13,7 @@ seasoning, lemon pepper, onion and garlic.
 
 ## Versioning
 
-Major.Minor.Patch from `package.json`, shown in a small footer. Current: 0.6.0.
+Major.Minor.Patch from `package.json`, shown in a small footer. Current: 0.6.1.
 
 ## Site
 

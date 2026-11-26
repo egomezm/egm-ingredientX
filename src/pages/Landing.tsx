@@ -20,8 +20,8 @@ export function Landing() {
           <strong>Ingredient X3</strong> and <strong>Ingredient X4</strong>.
         </p>
         <p>
-          Use it as a dry rub or seasoning mix, or stir it into olive oil or balsamic glaze for a
-          bold, aromatic finish. Fast, high-flavor, minimal steps.
+          Use it as a dry rub or seasoning mix, or stir it into olive oil and vinegar for a bold,
+          aromatic finish. Fast, high-flavor, minimal steps.
         </p>
         <p>
           Pick a recipe from the menu above to see how <strong className={styles.lalo}>Lalo</strong>{' '}

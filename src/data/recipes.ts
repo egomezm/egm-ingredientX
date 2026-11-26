@@ -27,6 +27,6 @@ export function thumbPath(path: string): string {
 
 export function assetUrl(path: string): string {
   const url = `${import.meta.env.BASE_URL}${path}`;
-  // Version query forces browsers to refetch updated images after each release.
-  return path.startsWith('images/recipes/') ? `${url}?v=${__APP_VERSION__}` : url;
+  // Version query forces browsers to refetch updated assets after each release.
+  return `${url}?v=${__APP_VERSION__}`;
 }

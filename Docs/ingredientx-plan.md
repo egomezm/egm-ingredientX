@@ -13,7 +13,7 @@ seasoning, lemon pepper, onion and garlic.
 
 ## Versioning
 
-Major.Minor.Patch from `package.json`, shown in a small footer. Current: 0.6.3.
+Major.Minor.Patch from `package.json`, shown in a small footer. Current: 0.6.4.
 
 ## Site
 
@@ -50,4 +50,4 @@ cauliflower, shrimp skewers, fries/wedges, sausage & veggies, garlic bread, past
 
 The spices banner (`SpicesBanner`) is rendered by `App` above the footer, so it appears on every page, including future ones.
 
-Recipe images are requested with a `?v=<app version>` query (see `assetUrl`) so browsers refetch updated photos after each release. Recipe ids are sequential; "Green Salad X" is id 1.
+All images are requested with a `?v=<app version>` query (see `assetUrl`) so browsers refetch updated photos after each release. Recipe ids are sequential; "Green Salad X" is id 1.

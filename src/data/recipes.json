@@ -1,16 +1,77 @@
 [
   {
     "id": 1,
+    "title": "Green Salad X",
+    "description": "A crisp, fresh salad of lettuce, sliced onion and ripe tomatoes, tossed with olive oil and a dusting of Ingredient X.",
+    "img_src_path": "images/recipes/00-green-salad.jpg",
+    "ingredients": [
+      {
+        "item": "Green leaf or romaine lettuce, torn",
+        "measure": "1 large head"
+      },
+      {
+        "item": "Ripe tomatoes, sliced",
+        "measure": "3 medium"
+      },
+      {
+        "item": "Red onion, thinly sliced",
+        "measure": "1/2 medium"
+      },
+      {
+        "item": "Olive oil",
+        "measure": "2 tbsp"
+      },
+      {
+        "item": "Ingredient X",
+        "measure": "1 tsp"
+      },
+      {
+        "item": "Salt",
+        "measure": "1 pinch"
+      },
+      {
+        "item": "Balsamic glaze",
+        "measure": "1 tbsp, to finish (optional)"
+      }
+    ],
+    "instructions": [
+      "Wash and dry the lettuce well, then tear it into bite-size pieces and place in a large bowl.",
+      "Slice the tomatoes into wedges or thick rounds and the onion into thin half-moons.",
+      "Add the tomatoes and onion to the lettuce.",
+      "Drizzle with olive oil, sprinkle with Ingredient X and a pinch of salt, and toss gently.",
+      "Finish with a light drizzle of balsamic glaze if you like, and serve right away."
+    ]
+  },
+  {
+    "id": 2,
     "title": "Foil-Packet Spicy Potatoes X",
     "description": "Crispy-edged, soft-centered potatoes sealed in foil with a generous coating of Ingredient X and a kick of crushed pepper.",
     "img_src_path": "images/recipes/01-foil-packet-spicy-potatoes.jpg",
     "ingredients": [
-      { "item": "Baby or Yukon Gold potatoes, chopped", "measure": "1.5 lb (700 g)" },
-      { "item": "Olive oil", "measure": "2 tbsp" },
-      { "item": "Ingredient X", "measure": "1 tbsp" },
-      { "item": "Salt", "measure": "1 pinch" },
-      { "item": "Crushed red pepper", "measure": "1/2 tsp" },
-      { "item": "Balsamic glaze", "measure": "1 tbsp, to finish" }
+      {
+        "item": "Baby or Yukon Gold potatoes, chopped",
+        "measure": "1.5 lb (700 g)"
+      },
+      {
+        "item": "Olive oil",
+        "measure": "2 tbsp"
+      },
+      {
+        "item": "Ingredient X",
+        "measure": "1 tbsp"
+      },
+      {
+        "item": "Salt",
+        "measure": "1 pinch"
+      },
+      {
+        "item": "Crushed red pepper",
+        "measure": "1/2 tsp"
+      },
+      {
+        "item": "Balsamic glaze",
+        "measure": "1 tbsp, to finish"
+      }
     ],
     "instructions": [
       "Preheat the oven to 425°F (220°C) or heat the grill to medium-high.",
@@ -21,15 +82,27 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Foil-Packet Spicy Onions X",
     "description": "Deeply golden, sweet and savory onions that make the perfect topping or side.",
     "img_src_path": "images/recipes/02-foil-packet-spicy-onions.jpg",
     "ingredients": [
-      { "item": "Large onions, sliced", "measure": "3" },
-      { "item": "Olive oil", "measure": "2 tbsp" },
-      { "item": "Ingredient X", "measure": "1 tbsp" },
-      { "item": "Crushed red pepper (optional)", "measure": "1/4 tsp" }
+      {
+        "item": "Large onions, sliced",
+        "measure": "3"
+      },
+      {
+        "item": "Olive oil",
+        "measure": "2 tbsp"
+      },
+      {
+        "item": "Ingredient X",
+        "measure": "1 tbsp"
+      },
+      {
+        "item": "Crushed red pepper (optional)",
+        "measure": "1/4 tsp"
+      }
     ],
     "instructions": [
       "Preheat the oven to 400°F (200°C) or heat the grill to medium.",
@@ -40,15 +113,27 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Grilled Zucchini X",
     "description": "Thick planks of zucchini, charred and tender, dusted heavily with Ingredient X.",
     "img_src_path": "images/recipes/03-grilled-zucchini.jpg",
     "ingredients": [
-      { "item": "Zucchini", "measure": "3 medium" },
-      { "item": "Olive oil", "measure": "2 tbsp" },
-      { "item": "Ingredient X", "measure": "2 tsp" },
-      { "item": "Balsamic glaze (optional)", "measure": "1 tbsp" }
+      {
+        "item": "Zucchini",
+        "measure": "3 medium"
+      },
+      {
+        "item": "Olive oil",
+        "measure": "2 tbsp"
+      },
+      {
+        "item": "Ingredient X",
+        "measure": "2 tsp"
+      },
+      {
+        "item": "Balsamic glaze (optional)",
+        "measure": "1 tbsp"
+      }
     ],
     "instructions": [
       "Heat the grill to medium-high.",
@@ -59,15 +144,27 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Sheet-Pan Chicken X",
     "description": "Crispy-skinned chicken thighs rubbed with Ingredient X and finished with a quick balsamic reduction.",
     "img_src_path": "images/recipes/04-sheet-pan-chicken.jpg",
     "ingredients": [
-      { "item": "Bone-in, skin-on chicken thighs", "measure": "6" },
-      { "item": "Olive oil", "measure": "2 tbsp" },
-      { "item": "Ingredient X", "measure": "2 tbsp" },
-      { "item": "Balsamic vinegar", "measure": "1/3 cup" }
+      {
+        "item": "Bone-in, skin-on chicken thighs",
+        "measure": "6"
+      },
+      {
+        "item": "Olive oil",
+        "measure": "2 tbsp"
+      },
+      {
+        "item": "Ingredient X",
+        "measure": "2 tbsp"
+      },
+      {
+        "item": "Balsamic vinegar",
+        "measure": "1/3 cup"
+      }
     ],
     "instructions": [
       "Preheat the oven to 425°F (220°C).",
@@ -78,15 +175,27 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Roasted Cauliflower X",
     "description": "Thick cauliflower steaks, golden and caramelized, with a balsamic finish.",
     "img_src_path": "images/recipes/05-roasted-cauliflower.jpg",
     "ingredients": [
-      { "item": "Large head of cauliflower", "measure": "1" },
-      { "item": "Olive oil", "measure": "3 tbsp" },
-      { "item": "Ingredient X", "measure": "2 tbsp" },
-      { "item": "Balsamic glaze", "measure": "1 tbsp" }
+      {
+        "item": "Large head of cauliflower",
+        "measure": "1"
+      },
+      {
+        "item": "Olive oil",
+        "measure": "3 tbsp"
+      },
+      {
+        "item": "Ingredient X",
+        "measure": "2 tbsp"
+      },
+      {
+        "item": "Balsamic glaze",
+        "measure": "1 tbsp"
+      }
     ],
     "instructions": [
       "Preheat the oven to 450°F (230°C).",
@@ -97,16 +206,31 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Shrimp Skewers X",
     "description": "Fast, juicy shrimp seasoned with Ingredient X, grilled in minutes with a squeeze of lemon.",
     "img_src_path": "images/recipes/06-shrimp-skewers.jpg",
     "ingredients": [
-      { "item": "Large shrimp, peeled", "measure": "1 lb (450 g)" },
-      { "item": "Olive oil", "measure": "2 tbsp" },
-      { "item": "Ingredient X", "measure": "1 tbsp" },
-      { "item": "Lemon", "measure": "1, cut into wedges" },
-      { "item": "Balsamic glaze (optional)", "measure": "1 tsp" }
+      {
+        "item": "Large shrimp, peeled",
+        "measure": "1 lb (450 g)"
+      },
+      {
+        "item": "Olive oil",
+        "measure": "2 tbsp"
+      },
+      {
+        "item": "Ingredient X",
+        "measure": "1 tbsp"
+      },
+      {
+        "item": "Lemon",
+        "measure": "1, cut into wedges"
+      },
+      {
+        "item": "Balsamic glaze (optional)",
+        "measure": "1 tsp"
+      }
     ],
     "instructions": [
       "Heat the grill or broiler to high.",
@@ -117,16 +241,31 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "French Fries / Wedges X",
     "description": "Ultra-crispy potato wedges or fries seasoned with Ingredient X, served with a balsamic-mayo dip.",
     "img_src_path": "images/recipes/07-fries-wedges.jpg",
     "ingredients": [
-      { "item": "Russet potatoes", "measure": "3 large" },
-      { "item": "Oil", "measure": "3 tbsp" },
-      { "item": "Ingredient X", "measure": "1 tbsp" },
-      { "item": "Mayonnaise (dip)", "measure": "1/3 cup" },
-      { "item": "Balsamic glaze (dip)", "measure": "1 tbsp" }
+      {
+        "item": "Russet potatoes",
+        "measure": "3 large"
+      },
+      {
+        "item": "Oil",
+        "measure": "3 tbsp"
+      },
+      {
+        "item": "Ingredient X",
+        "measure": "1 tbsp"
+      },
+      {
+        "item": "Mayonnaise (dip)",
+        "measure": "1/3 cup"
+      },
+      {
+        "item": "Balsamic glaze (dip)",
+        "measure": "1 tbsp"
+      }
     ],
     "instructions": [
       "Cut the potatoes into wedges or fries and soak in cold water for 20 minutes; dry thoroughly.",
@@ -137,17 +276,35 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "Sausage & Veggie X",
     "description": "A one-pan roast of Italian sausage, zucchini, onion and bell pepper, tossed in Ingredient X.",
     "img_src_path": "images/recipes/08-sausage-and-veggies.jpg",
     "ingredients": [
-      { "item": "Italian sausage, sliced", "measure": "1 lb (450 g)" },
-      { "item": "Zucchini, sliced", "measure": "2 medium" },
-      { "item": "Onion, sliced", "measure": "1 large" },
-      { "item": "Bell pepper, sliced", "measure": "2" },
-      { "item": "Olive oil", "measure": "2 tbsp" },
-      { "item": "Ingredient X", "measure": "1 1/2 tbsp" }
+      {
+        "item": "Italian sausage, sliced",
+        "measure": "1 lb (450 g)"
+      },
+      {
+        "item": "Zucchini, sliced",
+        "measure": "2 medium"
+      },
+      {
+        "item": "Onion, sliced",
+        "measure": "1 large"
+      },
+      {
+        "item": "Bell pepper, sliced",
+        "measure": "2"
+      },
+      {
+        "item": "Olive oil",
+        "measure": "2 tbsp"
+      },
+      {
+        "item": "Ingredient X",
+        "measure": "1 1/2 tbsp"
+      }
     ],
     "instructions": [
       "Preheat the oven to 425°F (220°C).",
@@ -157,15 +314,27 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "Garlic Bread X",
     "description": "Thick, buttery slices toasted until golden and fragrant, with an optional balsamic brush.",
     "img_src_path": "images/recipes/09-garlic-bread.jpg",
     "ingredients": [
-      { "item": "Butter, softened", "measure": "1/2 cup (115 g)" },
-      { "item": "Ingredient X", "measure": "1 1/2 tbsp" },
-      { "item": "Baguette or ciabatta, sliced", "measure": "1 loaf" },
-      { "item": "Balsamic glaze (optional)", "measure": "1 tsp" }
+      {
+        "item": "Butter, softened",
+        "measure": "1/2 cup (115 g)"
+      },
+      {
+        "item": "Ingredient X",
+        "measure": "1 1/2 tbsp"
+      },
+      {
+        "item": "Baguette or ciabatta, sliced",
+        "measure": "1 loaf"
+      },
+      {
+        "item": "Balsamic glaze (optional)",
+        "measure": "1 tsp"
+      }
     ],
     "instructions": [
       "Mix the softened butter with Ingredient X.",
@@ -175,18 +344,39 @@
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "title": "Pasta Toss X",
     "description": "Hot pasta tossed with olive oil, Ingredient X and Parmesan, finished with a few drops of balsamic glaze.",
     "img_src_path": "images/recipes/10-pasta-toss.jpg",
     "ingredients": [
-      { "item": "Pasta", "measure": "12 oz (340 g)" },
-      { "item": "Olive oil", "measure": "3 tbsp" },
-      { "item": "Ingredient X", "measure": "1 tbsp" },
-      { "item": "Grated Parmesan", "measure": "1/2 cup" },
-      { "item": "Pasta water", "measure": "1/4 cup" },
-      { "item": "Balsamic glaze", "measure": "a few drops" },
-      { "item": "Fresh herbs (optional)", "measure": "to garnish" }
+      {
+        "item": "Pasta",
+        "measure": "12 oz (340 g)"
+      },
+      {
+        "item": "Olive oil",
+        "measure": "3 tbsp"
+      },
+      {
+        "item": "Ingredient X",
+        "measure": "1 tbsp"
+      },
+      {
+        "item": "Grated Parmesan",
+        "measure": "1/2 cup"
+      },
+      {
+        "item": "Pasta water",
+        "measure": "1/4 cup"
+      },
+      {
+        "item": "Balsamic glaze",
+        "measure": "a few drops"
+      },
+      {
+        "item": "Fresh herbs (optional)",
+        "measure": "to garnish"
+      }
     ],
     "instructions": [
       "Cook the pasta in well-salted water until al dente; reserve 1/4 cup of the pasta water.",

@@ -13,7 +13,7 @@ seasoning, lemon pepper, onion and garlic.
 
 ## Versioning
 
-Major.Minor.Patch from `package.json`, shown in a small footer. Current: 0.5.2.
+Major.Minor.Patch from `package.json`, shown in a small footer. Current: 0.6.0.
 
 ## Site
 
@@ -31,7 +31,7 @@ Major.Minor.Patch from `package.json`, shown in a small footer. Current: 0.5.2.
 
 `id`, `title`, `description`, `img_src_path`, `ingredients[{item, measure}]`, `instructions[]`.
 Images (generated) live in `public/images/recipes/` with 360px thumbnails in `thumbs/` for the menu; a branded placeholder shows if one is missing.
-Ten starter recipes: foil-packet potatoes and onions, grilled zucchini, sheet-pan chicken, roasted
+Eleven recipes: green salad, foil-packet potatoes and onions, grilled zucchini, sheet-pan chicken, roasted
 cauliflower, shrimp skewers, fries/wedges, sausage & veggies, garlic bread, pasta toss.
 
 ## Assets
@@ -49,3 +49,5 @@ cauliflower, shrimp skewers, fries/wedges, sausage & veggies, garlic bread, past
 `/about` (HashRouter route) tells the playful origin story of Ingredient X, explains the name (a family recipe that cannot be shared), and shows a transparent portrait of Lalo (`public/images/lalo.png`) with a contact message. The landing page links to it and the main menu has an About item.
 
 The spices banner (`SpicesBanner`) is rendered by `App` above the footer, so it appears on every page, including future ones.
+
+Recipe images are requested with a `?v=<app version>` query (see `assetUrl`) so browsers refetch updated photos after each release. Recipe ids are sequential; "Green Salad X" is id 1.
